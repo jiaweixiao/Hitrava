@@ -1,7 +1,8 @@
 #!/bin/bash
 
-in_dir=huawei_strava_tcx
-out_dir=huawei_garmin_tcx
+prefix="raw_datas/HUAWEI_HEALTH_20241111095826"
+in_dir=${prefix}/huawei_strava_tcx
+out_dir=${prefix}/huawei_garmin_tcx
 
 in_tcx=$(ls $in_dir | grep tcx)
 
